@@ -1,0 +1,68 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+
+body {
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: #360152;
+
+}
+
+div.top {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1 {
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 28.6px;
+}
+
+h2 {
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+
+}
+
+h3 {
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+
+}
+
+img.photo {
+    width: 384px;
+    height: 512px;
+    border: 3px solid rgb(153,51,255)
+}
+
+div.grayrectangle {
+	background-color: rgb(217,179,255);
+	color: rgb(64,64,64);
+}
+
+div.whiterectangle {
+	background-color: rgb(107,107,107);
+	color: white;
+}
