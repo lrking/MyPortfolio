@@ -1,11 +1,10 @@
 alert("hi")
 
-// Don't start running until the page fully loads
 $(document).ready(function() {
 
 
  // Define my arrary
-var dog = ['fast', 'nap', 'weird', 'final'];
+var dog = ['fast', 'excellent nappers', 'weird', 'really photogenic'];
 
 // Loop through the dog array
 jQuery.each(dog, function( i, val ) {
@@ -28,30 +27,26 @@ var susiePic = $('#choosepicture').val();
 
 
  if ( susiePic  == 'fast') {
- $('body').removeClass();
- $('body').addClass("fast");
+  $('#dropdownpictures').attr("id", "fast");
 
 }
 
 
- else if ( susiePic  == 'nap') {
- $('body').removeClass();
- $('body').addClass("nap");
+ else if ( susiePic  == 'excellent nappers') {
+  $('#dropdownpictures').attr("id", "nap");
 
 }
 
 
  else if ( susiePic  == 'weird') {
- $('body').removeClass();
- $('body').addClass("weird");
+  $('#dropdownpictures').attr("id", "weird");
 
 }
 
-  else if ( susiePic  == 'final') {
- $('body').removeClass();
- $('body').addClass("final");
+  else if ( susiePic  == 'really photogenic') {
+  $('#dropdownpictures').attr("id", "final");
 
-};
+}
 
 });
 
