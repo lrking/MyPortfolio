@@ -4,8 +4,28 @@
      box-sizing: border-box; /* IE */
 }
 
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
 
+.clear {
+  clear: both;
+}
 
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
 
 body {
 	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
@@ -15,8 +35,12 @@ body {
 	font-weight: 400;
 	line-height: 20px;
 	color: #360152;
+	   float: left;
+  width: 85%;
+  margin: 20px;
 
 }
+
 
 div.top {
   margin: 0 auto;
@@ -25,16 +49,18 @@ div.top {
 
 h1 {
 	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-	font-size: 26px;
+	font-size: 32px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
 	line-height: 28.6px;
+	height: 100px;
+  	padding-top: 15px;
 }
 
 h2 {
 	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 26px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -44,7 +70,7 @@ h2 {
 
 h3 {
 	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -55,7 +81,20 @@ h3 {
 img.photo {
     width: 384px;
     height: 512px;
-    border: 3px solid rgb(153,51,255)
+    border: 3px solid rgb(153,51,255);
+    float: left;
+	margin top: 20px;
+	margin-left: 200px;
+
+}
+
+.middlepictures {
+	float: left;
+	margin top: 20px;
+	margin-left: 400px;
+	
+
+
 }
 
 #dropdownpictures {
@@ -63,29 +102,20 @@ img.photo {
 	background-size: 384px, 512px;
     width: 384px;
     height: 512px;
-    border: 3px solid rgb(153,51,255)
-}
-
-form {
-	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-	font-size: 16px;
-	font-style: normal;
+    border: 3px solid rgb(153,51,255);
 }
 
 div.grayrectangle {
 	background-color: rgb(217,179,255);
 	color: rgb(64,64,64);
+	padding: 20px;
+
 }
 
 div.whiterectangle {
 	background-color: rgb(107,107,107);
 	color: white;
-}
-
-div.allthesusiepics {
-	width: 384px;
-    height: 512px;
-    border: 3px solid rgb(153,51,255)
+	padding: 20px;
 }
 
 #fast {

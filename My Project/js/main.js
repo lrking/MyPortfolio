@@ -1,4 +1,3 @@
-alert("hi")
 
 $(document).ready(function() {
 
@@ -15,40 +14,46 @@ jQuery.each(dog, function( i, val ) {
 // Append drop down list to the select box
 $( '#choosepicture' ).append(seloption);
 
-  
+ 
 });
-
+ 
+var susiePic
 // Upon clicking an attribute, do this function
 $( '#choosepicture' ).change(function() {
-
+susiePic = $('#choosepicture').val();
 // Get user input
-var susiePic = $('#choosepicture').val();
 
+console.log(susiePic)
 
 
  if ( susiePic  == 'fast') {
-  $('#dropdownpictures').attr("id", "fast");
+  $('#dropdownpictures').css("background", "url(images/run2.png)");
+
+  console.log(susiePic)
 
 }
 
 
  else if ( susiePic  == 'excellent nappers') {
-  $('#dropdownpictures').attr("id", "nap");
+  $('#dropdownpictures').css("background", "url(images/nap2.jpg)");
+  console.log(susiePic)
 
 }
 
 
  else if ( susiePic  == 'weird') {
-  $('#dropdownpictures').attr("id", "weird");
+  $('#dropdownpictures').css("background", "url(images/tub3.png)");
+  console.log(susiePic)
 
 }
 
   else if ( susiePic  == 'really photogenic') {
-  $('#dropdownpictures').attr("id", "final");
+  $('#dropdownpictures').css("background", "url(images/photogenic2.jpg)");
 
 }
 
-});
+
+})
 
 
-});
+})
