@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
  // Define my arrary
-var dog = ['fast', 'excellent nappers', 'weird', 'really photogenic'];
+var dog = ['fast', 'excellent nappers', 'weird', 'really photogenic','bed movers'];
 
 // Loop through the dog array
 jQuery.each(dog, function( i, val ) {
@@ -27,7 +27,7 @@ console.log(susiePic)
 
 
  if ( susiePic  == 'fast') {
-  $('#dropdownpictures').css("background", "url(images/run2.png)");
+  $('#dropdownpictures').css("background", "url(images/combo.png)");
 
   console.log(susiePic)
 
@@ -51,8 +51,10 @@ console.log(susiePic)
   $('#dropdownpictures').css("background", "url(images/photogenic2.jpg)");
 
 }
+  else if ( susiePic  == 'bed movers') {
+  $('#dropdownpictures').css("background", "url(images/beddoorway.jpg)");
 
-
+  }
 })
 
 
